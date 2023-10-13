@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-10-13T02:21:21.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="zcPu-MKPvC-XMz5-ec7y" version="22.0.4" type="github">
+  <diagram name="Página-1" id="QLmy-znSimX7JHxG7N9l">
+    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uu9Az_5-EwIncJjdCse8-1" value="inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="90" as="sourcePoint" />
+            <mxPoint x="400" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-3" value="declarar-vocal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="297" y="150" width="202" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-4" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="250" as="sourcePoint" />
+            <mxPoint x="397.5" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-6" value="&quot;este programa te ayudara a identificar si es una vocal o consonante&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282" y="250" width="242" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="310" as="sourcePoint" />
+            <mxPoint x="397.5" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-8" value="&quot;digita el primer caracter&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="279" y="370" width="247" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-9" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399" y="420" as="sourcePoint" />
+            <mxPoint x="401" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-10" value="leer caracter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="308" y="480" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="uu9Az_5-EwIncJjdCse8-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="600" as="sourcePoint" />
+            <mxPoint x="414" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-12" value="vocal == &#39;a&#39; o vocal == &#39;e&#39; o vocal == &#39;i&#39; o &lt;br&gt;vocal == &#39;o&#39; o vocal == &#39;u&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="252" y="600" width="268" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.571;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="uu9Az_5-EwIncJjdCse8-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="760" as="sourcePoint" />
+            <mxPoint x="451" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-14" value="entonces &quot;es vocal&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="760" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-15" value="&quot;no es vocal&quot;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="288" y="880" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.5" y="800" as="sourcePoint" />
+            <mxPoint x="399.5" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="uu9Az_5-EwIncJjdCse8-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.5" y="910" as="sourcePoint" />
+            <mxPoint x="399.5" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uu9Az_5-EwIncJjdCse8-18" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="990" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
